@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screen_authorization_error_msg">Пожалуйста, введите имя и возраст ребёнка</string>
+    <string name="screen_authorization_name">Имя:</string>
+    <string name="screen_authorization_age">Возраст:</string>
+    <string name="screen_authorization_go">Войти</string>
+    <string name="screen_authorization_error_age">Возраст слишком велик</string>
+</resources>

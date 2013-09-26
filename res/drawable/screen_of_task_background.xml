@@ -1,0 +1,12 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <shape android:shape="rectangle" >
+            <solid android:color="#57a7b3" />
+        </shape>
+    </item>
+    <item>
+        <bitmap android:src="@drawable/fon02" />
+    </item>
+
+</layer-list>

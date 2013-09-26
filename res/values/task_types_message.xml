@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="task_types_message_next_figure">Найди закономерность и перенеси нужную фигуру на знак вопроса «?»</string>
+    <string name="task_types_message_put_in_free_slot">Найди закономерность и перенеси нужную фигуру на знак вопроса «?»</string>
+    <string name="task_types_message_systematisation">Найди закономерность и продолжи последовательность</string>
+    <string name="task_types_message_magicsquare">Найди закономерность и заполни недостающие элементы</string>
+    <string name="task_types_message_compare">Найди и нажми на фигуру, которая не подходит к остальным</string>
+    <string name="task_types_message_conclusion">Найди закономерность и выбери нужную фигуру</string>
+</resources>

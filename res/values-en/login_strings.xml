@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screen_authorization_error_msg">Enter child\'s name and age please.</string>
+    <string name="screen_authorization_name">Name:</string>
+    <string name="screen_authorization_age">Age:</string>
+    <string name="screen_authorization_go">Sign In</string>
+    <string name="screen_authorization_error_age">You are too old</string>
+</resources>

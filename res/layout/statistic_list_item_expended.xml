@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#50a4b0"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/parent_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/statistic_shape_collapse"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/statistic_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:src="@drawable/indicatorup1" />
+
+        <TextView
+            android:id="@+id/statistic_list_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/statistic_text1_parent_left_margin"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/statistic_text1_parent_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/statistic_item_text"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/statistic_text2_parent_size" />
+
+        <TextView
+            android:id="@+id/statistic_list_item_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/statistic_text2_parent_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text=" )"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/statistic_text2_parent_size" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-8dp"
+        android:layout_marginLeft="@dimen/statistic_text_child_left_margin"
+        android:background="@drawable/statistic_shape_item" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"            
+	        android:layout_marginTop="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:textSize="@dimen/statistic_text_child_size"
+            android:textColor="@android:color/white"
+            android:text="просто|нормально|сложно" />
+    </RelativeLayout>
+
+</LinearLayout>

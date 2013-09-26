@@ -1,0 +1,20 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+   
+   <item>
+        <bitmap android:src="@drawable/button" />
+    </item>
+    
+    <item>
+        <shape
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle" >
+            <corners android:radius="7dip" />
+            <solid android:color="#00000000"/>
+
+            <stroke
+                android:width="4dip"
+                android:color="#eb5396" />
+        </shape>
+    </item>
+ 
+</layer-list>

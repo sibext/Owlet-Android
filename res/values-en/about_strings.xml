@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_text">
+        <![CDATA[
+        <b>Owlet</b> is educational application, 
+        which contributes to the development of logical thinking.<br>
+        Designed for preschool and elementary school kids.
+        <br><br><br>
+        Developed as a part of "School of the smart owl" of Children\'s Creativity Center Soviet District of Novosibirsk.
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        ]]>
+    </string>
+    <string name="about_copyright">
+        <![CDATA[
+        <a href="http://www.sibext.com">Sibext Ltd.</a> © 2013
+        ]]>
+    </string>
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/task_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/screen_of_task_background" >
+
+    <LinearLayout
+        android:id="@+id/task_nameAndage_place"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp" >
+
+        <TextView
+            android:id="@+id/task_nameAndage_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/task_screen_name_text_size"
+            android:layout_marginLeft="15dp"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/task_content"
+        android:layout_width="600dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:gravity="top|left" >
+
+        <RelativeLayout
+            android:id="@+id/task_board"
+            android:layout_width="match_parent"
+            android:layout_height="400dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/task_board_white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/task_board_margin_up_down"
+                android:layout_marginLeft="@dimen/task_board_margin_left_right"
+                android:layout_marginRight="@dimen/task_board_margin_left_right"
+                android:layout_marginTop="@dimen/task_board_margin_up_down"
+                android:background="@drawable/task_board_green" />
+        </RelativeLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/task_textLayout"
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:background="@drawable/speach04"                
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/task_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"            
+            android:textColor="@android:color/black"            
+            android:textSize="@dimen/sovenok_message_text_size" />
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/sovenok_and_text"
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp" >
+
+        <RelativeLayout
+            android:id="@+id/task_img_sovenok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/task_img_tree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tree" />
+
+            <ImageView
+                android:id="@+id/lamp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lampon" />
+
+            <!--
+                  <ImageView
+                android:id="@+id/task_img_sovenok_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/howles" />
+        </RelativeLayout>
+            -->
+
+        </RelativeLayout>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/task_nameAndage_place"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp" >
+
+        <Button
+            android:id="@+id/screen_of_task_menu_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/menu" />
+        <Button
+            android:id="@+id/screen_of_task_volume_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/volume_on" />
+        
+        </LinearLayout>
+</RelativeLayout>

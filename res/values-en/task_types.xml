@@ -1,0 +1,7 @@
+
+    <resources>
+        <string name="systematisation">Systematisation task:</string>
+        <string name="magic_square">Magic square task:</string>
+        <string name="conclusion">Logic task:</string>
+        <string name="compare">Compare task:</string>
+    </resources>

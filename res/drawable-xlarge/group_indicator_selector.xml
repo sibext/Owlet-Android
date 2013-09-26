@@ -1,0 +1,6 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/indicatorup1" android:state_expanded="true"/>
+    <item android:drawable="@drawable/indicatordn1"/>
+
+</selector>

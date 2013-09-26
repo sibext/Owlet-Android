@@ -1,0 +1,52 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sibext.owlet"
+    android:versionCode="14"
+    android:versionName="1.0.8" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:name="com.sibext.owlet.OwletApplication" 
+        android:label="@string/sovenok_title"
+        android:theme="@style/SovenokTheme" 
+        android:icon="@drawable/sovenok_logo"
+        android:logo="@drawable/sovenok_logo"
+        android:installLocation="preferExternal"
+        android:allowBackup="true">
+
+        <provider
+            android:name="com.sibext.owlet.database.DatabaseProvider"
+            android:authorities="org.netcook.sovenok.provider"
+            android:exported="false"/>
+
+        <activity
+            android:name="com.sibext.owlet.activity.MainActivity"
+            android:theme="@style/SovenokTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sibext.owlet.activity.ScreenOfTaskActivity"
+            android:theme="@style/SovenokTheme">
+        </activity>
+        <activity
+            android:name="com.sibext.owlet.activity.StatisticsActivity"
+            android:theme="@style/SovenokTheme"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.sibext.owlet.activity.AboutActivity"
+            android:theme="@style/Theme.Transparent">
+        </activity>
+        <activity
+            android:name="com.sibext.owlet.activity.SettingsActivity"
+            android:theme="@style/SovenokTheme">
+        </activity>
+        </application>
+
+</manifest>

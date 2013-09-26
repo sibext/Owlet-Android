@@ -1,0 +1,7 @@
+
+    <resources>
+        <string name="systematisation">Задача систематизации:</string>
+        <string name="magic_square">Задача магический квадрат:</string>
+        <string name="conclusion">Задача умозаключение:</string>
+        <string name="compare">Задача сравнение:</string>
+    </resources>

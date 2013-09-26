@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screen_of_task_title">Задача:</string>
+    <string name="screen_of_task_miss_answer_msg">Вы не навели фигуру на \"?\". Повторите попытку.</string>
+
+    <string name="screen_of_task_default_sovenok_message">Привет! Нажми на меня и я подскажу, что тебе делать!</string>
+	<string name="screen_of_task_excellent_sovenok_message">Отлично! Нажми на меня и я подскажу, что тебе делать дальше!</string>
+    <string name="screen_of_task_good_sovenok_message">Хорошо! Нажми на меня и я подскажу, что тебе делать дальше!</string>
+	<string name="screen_of_task_bad_sovenok_message">Неправильно. Нажми на меня и я подскажу, что тебе делать дальше!</string>
+     
+</resources>

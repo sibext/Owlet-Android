@@ -1,0 +1,5 @@
+<resources>
+    <string name="language_key">lang</string>
+    <string name="volume_key">vol</string>    
+    <string name="volume_level_key">volume_level</string>    
+</resources>

@@ -1,0 +1,24 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="SovenokTheme" parent="android:style/Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Transparent" parent="SovenokTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <color name="task_image_red">#E31E24</color>
+    <color name="task_image_brown">#8D4A36</color>
+    <color name="task_image_dark_blue">#0D6185</color>
+    <color name="task_image_lilac">#924884</color>
+    <color name="task_image_yellow">#FFED00</color>
+    <color name="task_image_gray">#434242</color>
+    <color name="task_image_purple">#4A4392</color>
+    <color name="task_image_white">#FEFEFE</color>
+
+</resources>

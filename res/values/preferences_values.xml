@@ -1,0 +1,9 @@
+<resources>
+    <string name="pref_sound_title">Звук</string>
+    <string name="pref_sound_line_title">Уровень звука</string>
+    <string name="pref_main_category_title">Настройки</string>
+    <string name="pref_lang_title">Язык</string>
+    <string name="pref_lang_dialog_title">Выберите язык</string>
+    <string name="pref_lang_default">ru</string>
+    
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="task_types_message_next_figure">Find regularity and move necessary figure on «?».</string>
+    <string name="task_types_message_put_in_free_slot">Find regularity and move necessary figure on «?».</string>
+    <string name="task_types_message_systematisation">Find regularity and continue sequence.</string>
+    <string name="task_types_message_magicsquare">Find regularity and fill missing elements.</string>
+    <string name="task_types_message_compare">Find and tap on the figure which is different from the rest.</string>
+    <string name="task_types_message_conclusion">Find regularity and choose necessary figure.</string>
+</resources>

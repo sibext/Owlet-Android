@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="15dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/settings_menu_item"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/settings_title_size"
+            android:textStyle="bold"/>
+
+        <TableLayout
+            android:id="@+id/settings_content"
+            android:layout_width="@dimen/settings_scroll_view_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/settings_table_margin_top"
+            android:layout_marginBottom="@dimen/settings_table_margin_bottom"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:layout_gravity="center">
+        </TableLayout>
+
+        <Button
+            android:id="@+id/settings_back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/enter_button_selector"
+            android:text="@string/back_menu_item"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/login_text_box_text_size"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</RelativeLayout>

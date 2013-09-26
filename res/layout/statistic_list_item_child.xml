@@ -1,0 +1,124 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#50a4b0"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/statistic_text_child_left_margin"
+        android:background="@drawable/statistic_shape_item"
+        android:orientation="horizontal"
+        android:paddingBottom="4dp"
+        android:paddingLeft="@dimen/statistic_text_child_left_padding" >
+
+        <TextView
+            android:id="@+id/statistic_list_item_type"
+            android:layout_width="@dimen/statistic_text_child_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="@android:color/white"
+            android:singleLine="true"          
+            android:text="123"
+            android:textSize="@dimen/statistic_text_child_size" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical">
+
+            <TableRow>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" >
+
+                    <ProgressBar
+                        android:id="@+id/progress_low"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp" />
+
+                    <TextView
+                        android:id="@+id/progress_low_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="2/5"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/statistic_text_child_size" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" >
+
+                    <ProgressBar
+                        android:id="@+id/progress_med"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp" />
+
+                    <TextView
+                        android:id="@+id/progress_med_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="2/5"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/statistic_text_child_size" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" >
+
+                    <ProgressBar
+                        android:id="@+id/progress_hight"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp" />
+
+                    <TextView
+                        android:id="@+id/progress_hight_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="2/5"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/statistic_text_child_size" />
+                </RelativeLayout>
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="/"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/statistic_text_child_size" />
+
+        <TextView
+            android:id="@+id/statistic_list_item_attempt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/statistic_text_child_size" />
+    </LinearLayout>
+
+</LinearLayout>

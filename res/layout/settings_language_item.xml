@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp">
+
+    <TextView
+        android:id="@+id/settings_language_item_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:text="@string/pref_lang_title"
+        android:layout_weight=".5"/>
+
+    <Spinner android:id="@+id/settings_language_item_spinner"
+        android:prompt="@string/pref_lang_dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:spinnerMode="dialog"
+        android:layout_weight=".5"/>
+
+</TableRow>

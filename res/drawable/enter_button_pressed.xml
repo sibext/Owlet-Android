@@ -1,0 +1,19 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <bitmap android:src="@drawable/button" />
+    </item>
+    <item>
+        <shape
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle" >
+            <corners android:radius="7dip" />
+            <gradient
+                android:endColor="#e5097f"
+                android:gradientRadius="170"
+                android:startColor="#00000000"
+                android:type="radial" />
+        </shape>
+    </item>
+
+</layer-list>

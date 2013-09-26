@@ -1,0 +1,39 @@
+<resources>
+
+    <dimen name="about_left_marging">150dp</dimen> <!-- land -->
+    <dimen name="about_right_marging">150dp</dimen> <!-- land -->
+    <dimen name="about_top_marging">150dp</dimen> <!-- land -->
+    <dimen name="about_bottom_marging">150dp</dimen> <!-- land -->
+    <dimen name="about_info_padding">20dp</dimen>
+    <dimen name="about_title_text_size">30dp</dimen>
+    
+    <dimen name="task_board_margin_left_right">12dp</dimen>
+    <dimen name="task_board_margin_up_down">23dp</dimen>
+    
+    <dimen name="sovenok_message_text_size">25dp</dimen>
+    
+    <dimen name="statistic_exp_view_margin_top">20dp</dimen> <!-- land -->
+    <dimen name="statistic_exp_view_margin_bottom">20dp</dimen> <!-- land -->
+    <dimen name="statistic_exp_view_margin_left">40dp</dimen> <!-- land -->
+    <dimen name="statistic_exp_view_margin_right">40dp</dimen> <!-- land -->
+    
+    <dimen name="statistic_text1_parent_size">30dp</dimen>
+    <dimen name="statistic_text2_parent_size">25dp</dimen>
+    <dimen name="statistic_text1_parent_left_margin">20dp</dimen>
+    <dimen name="statistic_text_child_left_padding">20dp</dimen>
+    <dimen name="statistic_text_child_left_margin">50dp</dimen>
+    <dimen name="statistic_text_child_size">20dp</dimen>
+
+    <dimen name="login_text_box_height">60dp</dimen>
+    <dimen name="login_text_box_text_size">40dp</dimen>
+ 
+    <dimen name="settings_scroll_view_width">500dp</dimen>
+    
+    <dimen name="list_popup_win_width">300dp</dimen>
+    
+    <dimen name="settings_table_margin_top">35dp</dimen>
+    <dimen name="settings_table_margin_bottom">35dp</dimen>
+    
+
+    <dimen name="settings_title_size">50dp</dimen>
+</resources>

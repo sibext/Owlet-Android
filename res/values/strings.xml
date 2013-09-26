@@ -1,0 +1,36 @@
+<resources>
+
+    <string name="item_shop">{0,choice,0# лет|1#1 год|2#2 года|3#3 года|4#4 года|4&lt;{0} лет}</string>
+
+    <string name="sovenok_title">Совёнок</string>
+    <string name="menu_settings">Settings</string>
+    <string name="name">Имя</string>
+    <string name="age">Возраст</string>
+    <string name="enter_button_text">Войти</string>
+    <string name="dialog_title_correct_answer">Отлично!</string>
+    <string name="dialog_title_incorrect_answer">Попробуй ещё раз!</string>
+    <string name="dialog_text_correct_answer">Это правильный ответ!</string>
+    <string name="dialog_text_incorrect_answer">К сожалению, это не правильный ответ.</string>
+    <string name="dialog_button_text">Перейти к следующей задаче.</string>
+    <string name="statistic_title">Статистика</string>
+    <string name="dialog_title_good_work">Отлично, продолжай дальше!</string>
+    <string name="about_title_text">О программе</string>
+    <string name="statistic_item_text"> (возраст: </string>
+    <string name="dialog_are_you_sure_title">Потверждение</string>
+    <string name="dialog_are_you_sure_switch_account">Вы действительно хотите сменить пользователя?</string>
+    <string name="dialog_are_you_sure_quit">Вы действительно хотите выйти из игры?</string>
+    <string name="ok">Да</string>
+    <string name="cancel">Нет</string>
+
+    <string name="exit_menu_item">Выйти</string>
+    <string name="statistic_menu_item">Статистика</string>
+    <string name="about_menu_item">О программе</string>
+    <string name="logout_menu_item">Сменить пользователя</string>
+    <string name="settings_menu_item">Настройки</string>
+    <string name="back_menu_item">Назад</string>
+
+    <string name="statistic_low_compl_title">Легкий</string>
+    <string name="statistic_medium_compl_title">Средний</string>
+    <string name="statistic_hight_compl_title">Сложный</string>
+         
+</resources>

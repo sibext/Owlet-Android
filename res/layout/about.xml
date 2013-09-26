@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/about_bottom_marging"
+        android:layout_marginLeft="@dimen/about_left_marging"
+        android:layout_marginRight="@dimen/about_right_marging"
+        android:layout_marginTop="@dimen/about_top_marging"
+        android:background="@drawable/about_background" >
+
+        <ImageView
+            android:id="@+id/about_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:padding="5dp"
+            android:src="@drawable/infooff" />
+
+        <TextView
+            android:id="@+id/about_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@id/about_close"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/about_title_text"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/about_title_text_size" />
+
+        <TextView
+            android:id="@+id/about_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textColor="@android:color/white" />
+
+        <FrameLayout
+            android:id="@+id/about_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/about_bottom"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/about_close"
+            android:paddingBottom="@dimen/about_info_padding"
+            android:paddingLeft="@dimen/about_info_padding"
+            android:paddingRight="@dimen/about_info_padding" >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/about_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textColor="@android:color/white" />
+            </ScrollView>
+        </FrameLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

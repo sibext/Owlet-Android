@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screen_of_task_title">Task:</string>
+    <string name="screen_of_task_miss_answer_msg">You didn\'t drop figure on \"?\". Please try again.</string>
+
+    <string name="screen_of_task_default_sovenok_message">Hi! Push on me and I\'ll tell you what to do!</string>
+	<string name="screen_of_task_excellent_sovenok_message">Excellent! Tap on me and I\'ll tell you what to do next!</string>
+    <string name="screen_of_task_good_sovenok_message">Good! Press on me and I\'ll tell you what to do next!</string>
+	<string name="screen_of_task_bad_sovenok_message">Not right. Tap on me and I\'ll prompt you what to do!</string>
+
+</resources>

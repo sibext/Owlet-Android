@@ -1,0 +1,9 @@
+<resources>
+    <string name="pref_sound_title">Sound</string>
+    <string name="pref_sound_line_title">Sound level</string>
+    <string name="pref_main_category_title">Settings</string>
+    <string name="pref_lang_title">Language</string>
+    <string name="pref_lang_dialog_title">Change language</string>
+    <string name="pref_lang_default">en</string>
+    
+</resources>
