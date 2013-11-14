@@ -23,19 +23,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-import com.sibext.owlet.OwletApplication;
-import com.sibext.owlet.R;
-import com.sibext.owlet.activity.adapter.PopupMenuAdapter;
-import com.sibext.owlet.activity.adapter.PopupMenuAdapter.PopupMenuItem;
-import com.sibext.owlet.database.DatabaseProvider;
-import com.sibext.owlet.factory.WindowFactory;
-import com.sibext.owlet.factory.window.IListPopupWindow;
-import com.sibext.owlet.helper.Log;
-import com.sibext.owlet.model.TableUsers;
-
 import org.xmlpull.v1.XmlPullParserException;
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.ContentValues;
 import android.content.Context;
@@ -60,13 +49,24 @@ import android.view.View.OnClickListener;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 
+import com.sibext.android.activity.CrashCatcherActivity;
+import com.sibext.owlet.OwletApplication;
+import com.sibext.owlet.R;
+import com.sibext.owlet.activity.adapter.PopupMenuAdapter;
+import com.sibext.owlet.activity.adapter.PopupMenuAdapter.PopupMenuItem;
+import com.sibext.owlet.database.DatabaseProvider;
+import com.sibext.owlet.factory.WindowFactory;
+import com.sibext.owlet.factory.window.IListPopupWindow;
+import com.sibext.owlet.helper.Log;
+import com.sibext.owlet.model.TableUsers;
+
 /**
  * The base activity with menu and metrics
  * 
  * @author Nikolay Moskvin <moskvin@sibext.com>
  * 
  */
-public abstract class BaseOwletActivity extends Activity {
+public abstract class BaseOwletActivity extends CrashCatcherActivity {
 	private static final String TAG = "BaseOwletActivity";
 	private static final String ANDROID_NAMESPACE = "http://schemas.android.com/apk/res/android";
 	public static final String RU = "ru";
