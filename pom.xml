@@ -27,6 +27,12 @@
 			<artifactId>support-v4</artifactId>
 			<version>r7</version>
 		</dependency>
+		<dependency>
+			<groupId>com.sibext.crashcatcher</groupId>
+			<artifactId>crashcatcher</artifactId>
+			<version>1.0.19</version>
+			<type>apklib</type>
+		</dependency>
 	</dependencies>
 
 	<build>
