@@ -21,7 +21,7 @@
         android:theme="@style/SovenokTheme" >
 
         <meta-data
-            android:name="@string/metadata_recipient_key"
+            android:name="recipient_address"
             android:value="android@sibext.com" />
 
         <provider
